@@ -1,0 +1,25 @@
+HTMLとCSSの説明
+
+・HTMLとはHyperText Markup Lunguageの略で、ウェブページを作成するための言語である。
+　主に以下の<html><head><body>の３つのタグで構成される。
+<html>
+<head>
+<title>ウェブページのタイトル</title>
+</head>
+<body>
+<h1>ウェブページの見出し</h1>
+<p>ウェブページの段落</p>
+</body>
+</html>
+
+
+・CSSとはCascading Style Sheetsの略で、ウェブページのスタイルをしてする時に用いる言語である。
+　HTMLで作成されるウェブページにスタイルを適用する場合は、CSSが一般的に利用される。
+　<head>タグの間に挿入することでスタイルが適用される。
+<head>
+<link rel="stylesheet" href="cssの名前.css">
+</head>
+
+・CSSは、HTMLと組み合わせて使用する言語である。
+　HTMLがウェブページ内の各要素の意味や情報構造を定義するのに用い、
+　CSSではそれらを文字やスタイルどのように装飾するかを指定するのに用いる。
